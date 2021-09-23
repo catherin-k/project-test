@@ -7,3 +7,7 @@ const toggleMenu = () => {
 };
 
 burger.addEventListener("click", () => toggleMenu());
+menuElem.addEventListener("click", () => {
+  menuElem.classList.remove("menu-active");
+  burger.classList.remove("humburger-menu-active");
+});
